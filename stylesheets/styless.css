@@ -1,0 +1,109 @@
+body {
+	/* versoin 1 
+	font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	font-size: 12pt;
+	*/
+	/* 选用以上字体会导致增粗失效 */
+	/*
+	font-size: 12pt;
+	font-family: -apple-system, BlinkMacSystemFont, Tahoma, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica Neue", Helvetica, sans-serif;
+	*/
+	font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.bannerContainer {}
+
+.bannerTitle h1 {}
+
+.container {
+	display: flex;
+	margin: -10px;
+}
+
+.leftContainer {
+	flex: 1;
+	background-color: #A42321;
+	color: white;
+	overflow: auto;
+	box-sizing: content-box;
+}
+
+.bannerTitle {
+	margin: 5px;
+}
+
+.bannerDiscription {
+	text-align: right;
+}
+
+.ulClass {}
+
+.icon {
+	-webkit-transition: font-size 0.25s ease-out 0s;
+	-moz-transition: font-size 0.25s ease-out 0s;
+	transition: font-size 0.25s ease-out 0s;
+}
+
+.icon:hover {
+	font-size: 30px;
+}
+
+
+.ulClass li {
+	list-style-type: none;
+	color: white;
+	cursor: pointer;
+}
+
+.ulClass li a {
+	text-decoration: none;
+	color: white;
+	-webkit-transition: font-size 0.25s ease-out 0s;
+	-moz-transition: font-size 0.25s ease-out 0s;
+	transition: font-size 0.25s ease-out 0s;
+}
+
+.ulClass li a:hover {
+	background-color: #555;
+	font-size: 25px;
+	width: 200px;
+	color: white;
+}
+
+
+
+
+.rightContainer {
+	flex: 2;
+}
+
+.headPhoto {
+	width: 100%;
+	margin: 5px;
+	opacity: 0.7;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.headerEn {
+	font-family: "Ralphie Brown";
+	margin: 10px;
+}
+
+.headerCn {
+	color: brown;
+	margin: 10px;
+}
+
+
+.footer {
+	text-align: center;
+}
+
+.textStrong {
+	font-weight: 800;
+}
+
+.textRemark {
+	font-size: 12px;
+}
