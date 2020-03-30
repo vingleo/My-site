@@ -18,7 +18,7 @@ a:link {
 }
 
 a:visited {
-	color: black
+	color: blueviolet
 }
 
 a:hover {
@@ -26,7 +26,10 @@ a:hover {
 	text-decoration: underline;
 }
 
-
+.romeNumberTable {
+	font-family: times;
+	color: forestgreen
+}
 
 .bannerContainer {}
 
